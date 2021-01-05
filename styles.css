@@ -1,0 +1,123 @@
+body,html{
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.head{
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    margin: auto;
+    padding: 15px;;
+}
+.top{
+    
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/*Search option css*/
+.has-search .form-control {
+    padding-left: 2.35rem;
+    width: 300px;
+    opacity: 0.5;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    opacity: 1;
+}
+/*End of search option css*/
+.checkout{
+    margin: auto;
+    padding-right: 2.35rem;
+}
+
+
+.nav-a{
+    margin-top: 4.4rem;
+    background-color: white;
+    border: 0.1rem;
+    border-style: solid none solid none;
+    border-color: grey;
+}
+.nav-word{
+    font: 24;
+    font-weight: 800;
+    color: black;
+}
+
+/*Slider*/
+.sld{
+    
+    margin:auto;
+    padding: 10px;
+    height: 550px;
+}
+.slider{
+    margin: auto;
+    padding: 40px;
+    height: 490px;
+}
+/*Slider end*/
+
+
+/*Gallery*/
+.gallery-block{padding-bottom: 60px; padding-top: 60px;}
+
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
+/*end of gallery*/
+
+
+
+/*Slider 2*/
+
+
+/*End of slider 2*/
+
+
+/*footer*/
+.footer{
+    margin: auto;
+    background-color: gray;
+}
+
+.foot{
+    padding: 40px;
+}
+.foot h6{
+    padding: 5px;
+    font-size: large;
+    font-weight: 700;
+}
+/*footer*/
